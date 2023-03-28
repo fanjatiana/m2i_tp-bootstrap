@@ -1,0 +1,145 @@
+/*general */
+
+h1 {
+    text-align: center;
+}
+
+h2{
+    font-size: 1em;
+}
+
+h3{
+    color:#fff;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+footer {
+    height: 80px;
+    width: 100%;
+    display: flex;
+}
+
+footer p {
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+/* index page */
+.list-personn .card {
+    margin: 0 0.5em;
+}
+
+/* livres */
+
+.txt-coup-de-coeur{
+    color: #000;
+}
+.carousel {
+    width: 50%;
+}
+
+.carousel-item img {
+    max-height: 100%;
+}
+
+.blockquote {
+    background-image: "img/vh.jpg";
+}
+
+.book {
+    background-color: #333;
+    width: 15rem;
+    margin: 2em;
+}
+
+
+#card-banner {
+    height: 250px;
+}
+
+.card-banner-img {
+    max-width: 100%;
+    object-fit: cover;
+    background-position: center;
+    object-position: 80% 40%;
+    max-height: 100%;
+    height: 100%;
+}
+
+.filter {
+    margin: 0 auto;
+
+}
+
+.Page {
+    width: 100%;
+}
+
+.gallery-title p {
+    color: #fff;
+}
+
+
+#gallery {
+    background-color: #595959;
+    border-radius: 10px;
+}
+
+.card-gallery {
+    margin: 2em 2em;
+}
+
+.card-button button {
+   width: 45%;
+}
+
+/*modal card */
+.modal-body p {
+    color: #000;
+}
+
+
+.modal-title {
+    color: #000;
+}
+
+#carouselExampleInterval {
+    max-height: 500px;
+    max-width: 300px;
+}
+
+.modal-book-page h4 {
+    color: #000;
+}
+
+/* contact */
+.object-select {
+    margin: 1em 0;
+}
+
+
+.footer-page {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/*mention legale */
+#banner{
+    margin:0 auto;
+}
+
+#banner img{
+    border-radius: 10px;
+}
+.mention-banner {
+    margin: 1em auto;
+}

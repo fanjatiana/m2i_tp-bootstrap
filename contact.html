@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>Bootstrap tp : Book</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light navbar-dark bg-dark mb-3 ">
+      <div class="container-fluid  ms-2">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo.png" alt="Bootstrap" width="50" height="50" class="rounded-circle">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link " href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="livres.html">Livres</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html" active>Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Rechercher sur le site" aria-label="Search">
+            <button class="btn btn-outline-secondary" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+              </svg></i></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class=" w-100">
+      <h1 class=" mt-5 ">Contactez-nous</h1>
+    </div>
+  </header>
+
+  <main class="mt-3 mb-3 formular ">
+    <div class="container d-flex justify-content-center ">
+      <form class="form-contact col-lg-6 ">
+        <div class="mb-3 position-relative">
+          <label for="lastName" class="form-label">Nom</label>
+          <input type="text" class="form-control" id="lastName" pattern="^[a-zA-Z '.-]*$" required>
+        </div>
+        <div class="mb-3">
+          <label for="firstName" class="form-label">Prénom</label>
+          <input type="firstName" class="form-control" id="firstName" pattern="^[a-zA-Z '.-]*$" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">E-mail</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <select class="form-select object-select" aria-label="Default select example">
+          <option selected>Quel sujet souhaitez-vous aborder ?</option>
+          <option value="1">inscription</option>
+          <option value="2">Réservation des livres</option>
+          <option value="3">Retour des livres</option>
+          <option value="4">Autre</option>
+        </select>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" data-bs-toggle="modal"
+          data-bs-target="#exampleModal">Envoyer</button>
+      </form>
+    </div>
+  </main>
+
+  <footer class="bg-dark d-flex flex-column align-items-center pt-3 mt-3 footer-page">
+    <p class="">Ⓒ F.Pavageau </p>
+    <a href="mentions_legales.html">Mentions legales</a>
+  </footer>
+</body>
+</html>
